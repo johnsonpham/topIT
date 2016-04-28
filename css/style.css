@@ -9,18 +9,17 @@ body {
     font-weight: 400;
     color: #333;
     padding-top: 60px;
-    padding-bottom:80px;
-    position: relative;
 }
 a:hover{text-decoration: none}
 .web-container{
     min-height:100%;
     position:relative;
+    padding-bottom:60px;
 }
 .light-gray{background-color: #f9f9f9}
 .gray-color{color: #707070}
 h2{font-size: 45px; font-weight: 300; text-transform: capitalize;}
-h3{font-size: 30px; font-weight: 300; text-transform: capitalize;}
+h3{font-size: 30px; font-weight: 300;}
 h3.under-line{
 	background: url(../img/underline-header.png) center bottom no-repeat;
 	padding-bottom: 15px;
@@ -95,7 +94,7 @@ ul{list-style: none;margin: 0;padding: 0;}
 	padding: 50px;
 	background-color: rgba(6, 91, 137, 0.6);margin: auto; color: #fff; position: absolute; left: 0; right: 0; top: 25%;
 }
-.search-form-content h2{padding-bottom: 40px;margin: 0;}
+.search-form-content h2{padding-bottom: 40px;margin: 0; font-size: 25px;}
 .search-form-content .form-inline .form-control{width: 100%;border-radius: 0; height: 42px; border: 0; font-size: 16px;}
 .key-words{width: 50%}
 .location{width: 25%}
@@ -133,12 +132,17 @@ footer{
 	font-size: 14px; color: #707070;
     position: absolute;
     bottom:0;
+    left: 0;
     height:60px;
 }
-footer ul{}
 footer li{display: inline-block;padding: 0 5px; text-transform: uppercase;}
 footer li a{color: #707070}
 footer li a:hover{color: #707070; text-decoration: none;}
 .scrollToTop{position: fixed; right: 20px; bottom: 20px; padding: 10px;font-size: 18px; font-weight: 500; color: #fff; background-color: #065b89; z-index: 9999}
 .scrollToTop:hover{color: #fff; text-decoration: none;}
 .scrollToTop:active{color: #fff}
+
+/* --- Error 404 -- */
+.error-404{padding-top: 100px;}
+.error-404 h2{font-size: 100px;}
+.error-404 img{max-width: 150px;}
