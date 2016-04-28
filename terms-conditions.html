@@ -13,6 +13,7 @@
 </head>
 <body>
 <div class="web-container light-gray" id="top" name="top">
+    <a id="top" name="top"></a>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -185,7 +186,7 @@
 
     function scrollToAnchor(aid) {
         var aTag = $("a[name='" + aid + "']");
-        $('html,body').animate({scrollTop: aTag.offset().top}, 300);
+        $('html,body').animate({scrollTop: aTag.offset().top - 60}, 300);
     }
 
 
