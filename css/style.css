@@ -16,7 +16,9 @@ a:hover{text-decoration: none}
     position:relative;
     padding-bottom:60px;
 }
-.light-gray{background-color: #f9f9f9}
+.light-gray{background-color: #f9f9f9;
+    width: 100%;
+    display: inline-block;}
 .gray-color{color: #707070}
 h2{font-size: 45px; font-weight: 300; text-transform: capitalize;}
 h3{font-size: 30px; font-weight: 300;}
@@ -151,3 +153,32 @@ footer li a:hover{color: #707070; text-decoration: none;}
 .error-404{padding-top: 100px;}
 .error-404 h2{font-size: 100px;}
 .error-404 img{max-width: 150px;}
+
+/* --- Privacy --- */
+.sub-page{
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+.sub-page-header{
+    border-top: 2px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: inline-block;
+}
+.sub-page-header h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+.sub-page-conatiner{
+    width: 100%;
+    clear: both;
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+}
+.sub-page-conatiner strong{font-weight: 500;}
+span.subtitle{font-weight: 400; font-size: 20px;}
