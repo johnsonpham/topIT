@@ -55,7 +55,14 @@ ul{list-style: none;margin: 0;padding: 0;}
 .no-borders {
     border: 0 !important;
 }
-
+.text-clip {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    vertical-align: middle;
+}
 
 /* ----- main  menu ----- */
 
