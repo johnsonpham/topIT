@@ -1,15 +1,16 @@
+html, body{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #333;
     padding-top: 60px;
-    padding-bottom:60px
-}
-html, body{
-    height:100%;
-    margin: 0;
-    padding: 0;
+    padding-bottom:80px;
+    position: relative;
 }
 a:hover{text-decoration: none}
 .web-container{
@@ -112,7 +113,7 @@ ul{list-style: none;margin: 0;padding: 0;}
 .services-listing .service-item.cities{ background: url(../img/ic-cities.png) left top no-repeat;}
 .services-listing p{font-size: 16px;}
 .services-listing li{padding: 5px 0; font-size: 16px;}
-.services-listing li a{color: #000}
+.services-listing a{color: #000}
 
 /* ----- Latest Jobs ----- */
 .latest-jobs-listing{padding: 50px 0;display: inline-block; width: 100%;}
