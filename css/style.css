@@ -211,11 +211,12 @@ span.subtitle{font-weight: 400; font-size: 20px;}
 .box-header h3 i{
     margin-right: 10px;
 }
-.logo-company-apply-button{width: 100px;
-    float: right; text-align: center}
-.logo-company-apply-button img{max-width: 100px;padding-bottom: 20px;}
-.logo-company-apply-button .btn{
-    width: 100%;}
+.apply-button{text-align: center}
+.apply-button .btn{
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
+}
 .box-details h4{font-size: 18px; font-weight: 400; text-transform: capitalize; padding: 20px 0}
 .box-details p{
     margin: 0 0 5px;}
@@ -272,6 +273,8 @@ span.subtitle{font-weight: 400; font-size: 20px;}
 }
 .info-item a{color: gray;}
 .info-item a:hover{color: #0070B5}
+.info-item p{color: gray; font-size: 14px;}
+.info-item a strong{font-size: 16px; color: #333; font-weight: 500}
     /* -- customize select 2 --- */
 .select2-container--default.select2-container--focus .select2-selection--multiple{border: 0}
 .select2-container--default .select2-selection--multiple{border: 0; border-radius: 0; height: 42px; font-size: 16px;}

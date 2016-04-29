@@ -38,6 +38,9 @@
 	.latest-jobs-listing{padding: 25px 0}
 	footer{text-align: center}
 	footer ul{display: none;}
+	.apply-button{padding: 20px 0}
+	.apply-button .btn{
+		width: 100%;}
 }
 /* --- Table --- */
 @media (min-width: 768px) and (max-width: 999px) {
